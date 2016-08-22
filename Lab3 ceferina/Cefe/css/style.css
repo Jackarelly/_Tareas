@@ -1,0 +1,217 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+body
+{
+	background-color: rgba(0, 0, 0, 1);
+	color: white;
+	text-align: center;
+	font-family: helvetica;
+}
+
+nav
+{
+	background-color: rgba(255, 38, 0, 0.8);
+	padding: 20px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+nav ul li
+{
+	padding: 10px;
+	background-color: rgba(80, 60, 150, 0.8);
+	word-spacing: 20px;
+	display: inline-block;
+	padding: 10px;
+	margin-right: 12px;
+	border-radius: 8px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	-webkit-transition:all 0.5s ease;
+	padding: 10px;
+	margin-right: 12px;
+	border-radius: 8px;
+
+
+}
+
+li:hover, a:hover
+{	
+	background-color: white;
+	color:#000;
+	transition: rotate(45deg);
+	transform: rotateZ(45deg);
+	-webkit-transition: scale (1.2) rotate(-5deg);
+	transition:all 1s ease;
+	border-radius: 8px;
+
+
+}
+
+header
+{
+	border: 5px solid #44E7FF;
+	padding: 40px;
+	text-align:center;
+	margin-top: 100px;
+}
+
+h1
+{
+	text-shadow: #0ff 2px 2px 20px;
+}
+hgroup
+{
+	text-shadow: #FF6B25 2px 2px 20px;
+}
+
+main
+{
+	margin-top: 15px;
+}
+
+section	
+{
+	height: 1000px;
+}
+.art1
+{
+	
+	width: 40%;
+	margin:12px;
+	vertical-align: top;
+	display: inline-block;
+}
+.ocultarart1
+{
+	display: none;
+}
+.art2
+{
+	width: 50%;
+	background: white;
+	margin:12px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.moverart2
+{
+	width: 50%;
+	background: white;
+	margin:12px;
+	vertical-align: top;
+	display: inline-block;
+	float: left;
+
+}
+
+
+
+
+figure img
+{
+	width: 100%;
+}
+
+figcaption
+
+{
+	background-color: rgba(255, 38, 0, 0.8);
+	marker-start: 15px;
+	padding: 20px;
+	text-align:center;
+}
+figcaption ul li
+{
+	display: inline-block;
+}
+
+.formulario, .art3
+{
+		vertical-align: top;
+	display: inline-block;
+}
+
+.formulario
+{
+
+	display: none;
+
+}
+
+.mostrarform
+{
+	background-color: rgba(255, 38, 0, 0.8); 
+	padding: 15px;
+	width: 30%;
+	margin: 50px;
+	float: right;
+	vertical-align: top;
+	display: inline-block;
+}
+
+
+
+
+
+legend
+{
+	margin-left: -1px;	
+}
+textarea
+{
+	width: 100%;
+}
+
+input
+{
+	width: 100%;
+	margin-bottom: 8px;
+	height: 2em;
+}
+
+button
+{
+	height: 4em;
+	width: 100%;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+button:hover
+{
+	border: 2px solid black;
+	cursor: pointer;
+	font-size: 16px;
+	background-color: rgba(80, 60, 150, 0.8);
+	color: white;
+	width: 80;
+}
+
+footer
+{
+	background-color: rgba(255, 38, 0, 0.8);
+	margin-top: 220px;
+	padding: 20px;
+	text-align: center;
+	position: ;
+}
+
+
